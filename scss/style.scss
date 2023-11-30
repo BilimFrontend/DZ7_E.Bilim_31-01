@@ -33,12 +33,18 @@ body{
     border: none;
   }
   button{
+    cursor: pointer;
     padding: 10px;
     border-radius: 6px;
     border: 2px solid #308080;
     background: #308080;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    transition: 150ms;
+    &:active{
+      background: black;
+      border: 2px solid white;
+    }
   }
 }
 
